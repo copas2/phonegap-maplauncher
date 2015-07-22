@@ -27,7 +27,7 @@
 var maplauncher = {};
 
 
-launchnavigator.openMap = function(location, successCallback, errorCallback) {
+maplauncher.openMap = function(location, successCallback, errorCallback) {
     var dType = "none";
     if(typeof(location) == "object"){
         dType = "pos";

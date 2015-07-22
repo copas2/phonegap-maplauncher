@@ -27,7 +27,7 @@
 var maplauncher = {};
 
 
-launchnavigator.openMap = function(location, successCallback, errorCallback) {
+maplauncher.openMap = function(location, successCallback, errorCallback) {
 
     var exec = require('cordova/exec');
 
