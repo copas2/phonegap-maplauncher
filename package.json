@@ -1,0 +1,33 @@
+{
+    "version": "1.0.0",
+    "name": "de.netfutura.phonegap.plugin.launchmaps",
+    "cordova_name": "Map Launcher",
+    "description": "Cordova/Phonegap plugin to show a location using the native navigation app on Android (Google Maps), iOS (Apple Maps/Google Maps), and Windows Phone (Bing Maps).",
+    "author": "Ralph Dittrich",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kizetsu/phonegap-maplauncher.git"
+    },
+    "cordova": {
+        "id": "de.netfutura.phonegap.plugin.launchmaps",
+        "platforms": [
+          "android",
+          "ios"
+        ]
+    },
+    "issue": "https://github.com/kizetsu/phonegap-maplauncher/issues",
+    "keywords": [
+        "cordova",
+        "phonegap",
+        "ios",
+        "android",
+        "maps"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ]
+}
