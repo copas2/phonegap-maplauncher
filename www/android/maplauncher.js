@@ -47,4 +47,4 @@ maplauncher.openMap = function(location, successCallback, errorCallback) {
 
 };
 
-module.exports = launchnavigator;
+module.exports = maplauncher;
