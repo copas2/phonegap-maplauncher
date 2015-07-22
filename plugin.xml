@@ -50,18 +50,4 @@
     <source-file src="src/ios/MapLauncher.m" />
   </platform>
 
-  <!-- windows -->
-<!--   <platform name="windows">
-    <js-module src="www/windows/maplauncher.js" name="MapLauncher">
-      <clobbers target="maplauncher" />
-    </js-module>     
-  </platform> -->
-
-  <!-- wp8 -->
-<!--   <platform name="wp8">
-    <js-module src="www/wp8/maplauncher.js" name="MapLauncher">
-      <clobbers target="maplauncher" />
-    </js-module>   -->   
-  </platform>
-
 </plugin>
