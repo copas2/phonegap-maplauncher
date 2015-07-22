@@ -39,7 +39,7 @@ maplauncher.openMap = function(location, successCallback, errorCallback) {
         cordova.exec(
             successCallback,
             errorCallback,
-            'maplauncher',
+            'MapLauncher',
             'openMap',
             [dType, location]
         );
