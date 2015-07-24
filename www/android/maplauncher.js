@@ -45,6 +45,8 @@ maplauncher.openMap = function(location, successCallback, errorCallback) {
         );
     }
 
+    doOpen(dType);
+
 };
 
 module.exports = maplauncher;
