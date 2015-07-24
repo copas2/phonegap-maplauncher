@@ -101,7 +101,7 @@ public class MapLauncher extends CordovaPlugin {
 			String logMsg = "Navigating to "+location;
 			String url;
 
-			url = String.format(Locale.GERMAN, "geo:%f",location);
+			url = String.format(Locale.ENGLISH, "geo:%f",location);
 
 			// if(start != null){
 			// 	logMsg += " from " + start;
