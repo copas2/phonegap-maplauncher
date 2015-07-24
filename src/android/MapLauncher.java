@@ -36,6 +36,8 @@ import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;
 
+import java.util.Locale;
+
 
 public class MapLauncher extends CordovaPlugin {
 
@@ -103,19 +105,10 @@ public class MapLauncher extends CordovaPlugin {
 
 			url = String.format(Locale.ENGLISH, "geo:%f",location);
 
-			// if(start != null){
-			// 	logMsg += " from " + start;
-			// 	url = "http://maps.google.com/maps?daddr=" + destination + "&saddr=" + start;
-			// }else{
-			// 	logMsg += " from current location";
-			// 	url = "google.navigation:q=" + destination;
-			// }
 			Log.d(LOG_TAG, logMsg);
 			
 	        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-	        // if(start != null){
-	        // 	intent.setClassName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity");
-	        // }
+
 	        this.cordova.getActivity().startActivity(intent);
 	        result = true;
 		}catch( Exception e ) {
