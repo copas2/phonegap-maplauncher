@@ -28,6 +28,7 @@ var maplauncher = {};
 
 
 maplauncher.openMap = function(location, successCallback, errorCallback) {
+    var exec = require('cordova/exec');
     var dType = "none";
     if(typeof(location) == "object"){
         dType = "pos";
